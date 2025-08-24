@@ -72,30 +72,6 @@ func main() {
 			"Networking.WinHttp",								// added
 			// "Networking.WinInet",							// conflicts with Networking.WinHttp
 			"Networking.WinSock",								// added
-				// "NetworkManagement.Dhcp",
-				// "NetworkManagement.Dns",
-				// "NetworkManagement.InternetConnectionWizard",
-				// "NetworkManagement.IpHelper",
-				// "NetworkManagement.MobileBroadband",
-				// "NetworkManagement.Multicast",
-				// "NetworkManagement.Ndis",
-				// "NetworkManagement.NetBios",
-				// // "NetworkManagement.NetManagement",
-				// "NetworkManagement.NetShell",
-				// "NetworkManagement.NetworkDiagnosticsFramework",
-				// "NetworkManagement.NetworkPolicyServer",
-				// "NetworkManagement.P2P",
-				// // "NetworkManagement.QoS",
-				// "NetworkManagement.Rras",
-				// "NetworkManagement.Snmp",
-				// "NetworkManagement.WebDav",
-				// // "NetworkManagement.WiFi",
-				// "NetworkManagement.WindowsConnectionManager",
-				// "NetworkManagement.WindowsConnectNow",
-				// "NetworkManagement.WindowsFilteringPlatform",
-				// "NetworkManagement.WindowsFirewall",
-				// "NetworkManagement.WindowsNetworkVirtualization",
-				// // "NetworkManagement.WNet",
 			"Security.AppLocker",
 			"Security.Authentication.Identity", 				// added
 			"Security.Credentials",								// added
