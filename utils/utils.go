@@ -19,6 +19,14 @@ func CapName(name string) string {
 		if c != '_' {
 			break
 		}
+		// handle anonymous structs with:
+		// _22
+		// in them
+		c = name[1]
+		if !(c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') {
+			name = "A" + name
+			break
+		}
 		name = name[1:] + "_"
 	}
 	if c >= 'a' && c <= 'z' {

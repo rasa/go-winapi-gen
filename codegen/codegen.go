@@ -355,7 +355,8 @@ func (this *Generator) GenPkg(pkg *gomodel.Package) string {
 	}
 
 	if strings.Contains(code, "win32.") {
-		imports = append(imports, "github.com/zzl/go-win32api/win32")
+		code = strings.ReplaceAll(code, "win32.", "")
+		// imports = append(imports, "github.com/zzl/go-win32api/win32")
 	}
 	if strings.Contains(code, "com.") {
 		imports = append(imports, "github.com/zzl/go-com/com")
